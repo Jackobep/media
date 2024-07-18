@@ -1,0 +1,387 @@
+
+body{
+    font-family: "Cormorant Garamond" ;
+    font-size: 17px;
+    letter-spacing: .01em;
+    line-height: 1.6em;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.Header-branding{
+    font-family: "Cormorant Garamond Medium";
+    box-sizing: border-box;
+    flex-basis: auto;
+    flex-shrink: 1;
+    flex-grow: 0;
+    font-size: 51px;
+    font-weight: 500;
+    color: rgb(69, 90, 48);
+    letter-spacing: 12.75px;
+    line-height: 71.4px;
+    max-width: 100%;
+    order: 3;
+    padding-bottom: 70px;
+    padding-left: 5.5px;
+    padding-top: 70px;
+    pointer-events: auto;
+    text-align: center;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    -webkit-box-flex: 1;
+    -webkit-box-flex-group: 3;
+    -webkit-font-smoothing: subpixel-antialiased;
+    
+}
+
+.hed{
+ background-color:rgb(255, 255, 255);
+ background-image: url(art1.jpg);
+ background-repeat: no-repeat;
+ padding-top: 0px;
+ padding-bottom: 500px;
+ background-position: center;
+ background-size: cover;
+}
+
+
+.anim{
+color: rgba(255, 255, 255, 0.918) ;
+text-decoration: none;
+font-size: 30px;
+letter-spacing: 7.50px;
+    line-height: 100px;
+    max-width: 100%;
+    display: inline-block;
+    margin-right: 6%;
+    margin-left: 5.5%;
+
+}
+
+.anim:hover{
+color: rgb(173, 169, 169);
+}
+
+
+
+.x{
+    color: rgba(255, 255, 255, 0.918) ;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 7.50px;
+        line-height: 100px;
+        transform: scale(1);
+
+}
+
+.mouseove{
+    color: rgba(255, 255, 255, 0.918) ;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 7.50px;
+        line-height: 100px;
+        max-width: 100%;
+}
+
+.info1{
+    color: rgba(255, 255, 255, 0.918) ;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 7.50px;
+        line-height: 100px;
+    transform: scale(1);
+       
+    
+}
+.info2{
+    color: rgba(255, 255, 255, 0.918) ;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 7.50px;
+        line-height: 100px;
+        transform: scale(1);
+}
+.info3{
+    color: rgba(255, 255, 255, 0.918) ;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 7.50px;
+        line-height: 100px;
+        transform: scale(1);
+        
+
+}
+
+.info4{
+    color: rgba(255, 255, 255, 0.918) ;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 7.50px;
+        line-height: 100px;
+        transform: scale(1);
+
+}
+.gallery1000{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 6.25px;
+        line-height: 50px;
+}
+.info5{
+    text-decoration: none;
+    color: rgb(69, 90, 48) ;
+    margin-top: 200px;
+        padding: 10px 10px;
+        border: 2px solid rgb(69, 90, 48);
+        border-radius: 55px;
+        transition: background-color 0.5s, color 0.5s;
+}
+.info5:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.918) ;
+    margin-top: 200px;
+        text-align: center;
+        padding: 10px 10px;
+        border: 2px solid rgb(69, 90, 48);
+        border-radius: 55px;
+        background-color: rgb(69, 90, 48) ;
+
+}
+
+
+.link-container {
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+}
+
+
+.information{
+background-color: rgb(69, 90, 48) ;
+padding-bottom: 10px;
+text-align: center;
+}
+.ship
+{
+margin: 14px 14px;
+color: rgba(255, 255, 255, 0.918) ;
+text-decoration: none;
+font-family: "Cormorant Garamond Medium";
+font-size: 15px;
+    font-weight: 100;
+   
+    letter-spacing: 4px;
+    line-height: 71.4px;
+}
+.ship:hover{
+color: rgba(212, 212, 212, 0.801);
+}
+
+.end{
+    color: rgba(255, 255, 255, 0.918) ;
+    font-family: "Cormorant Garamond Medium";
+    font-size: 25px;
+    font-weight: 100px;
+    line-height: 71.4px;
+}
+
+
+/*gallery.html*/
+
+
+.gallery1
+{
+    color: rgb(69, 90, 48);
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 7.50px;
+        line-height: 100px;
+        margin: 0px 50px 0px 0px;
+        justify-content: space-around;
+        display: flex;
+        text-decoration: none;
+        flex-wrap: wrap;
+        border-radius: 4px;
+}
+.thumbnail{
+    border: solid 3px rgb(69, 90, 48) ;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 32px;
+    max-height: 450px;
+    max-width: 300px;
+    transform: scale(1);
+    transition: transform 0.3s;
+    
+}
+.thumbnail:hover{
+transform: scale(1.1);
+
+}
+.thumbnail img{
+height: 100%;
+object-fit: cover;
+width: 100%;
+}
+.galleryc{
+    background-color: rgb(69, 90, 48);
+    padding: 64px;
+}
+
+.gallery{
+    background: linear-gradient(
+    60deg,
+    rgba(69, 90, 48, 0.438), 
+    rgba(255, 255, 255, 0.2)
+    ) ;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 32px;
+}
+
+.gallery3{
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: rgb(69, 90, 48);
+}
+.ah{
+    text-align: center;
+    font-size: 51px;
+    font-weight: 500;
+    color: rgb(69, 90, 48);
+    letter-spacing: 12.75px;
+    line-height: 40px;
+    max-width: 100%;
+    order: 3;
+    padding-bottom: 70px;
+    padding-left: 5.5px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+.popup {
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    position: fixed;
+    animation: fadeIn 0.3s;
+}
+.popup.hidden{
+    display: none;
+}
+.popup.fade-out{
+    animation: fadeOut 0.3s both;
+}
+.popup__img{
+max-height: 80%;
+max-width: 80%;
+}
+
+.popup__close{
+    border: none;
+    cursor: pointer;
+    color: rgb(69, 90, 48);
+    font-size: 128px;
+    position:fixed;
+    top: 32px;
+    right: 32px
+}
+
+.popup__arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    font-size: 64px;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
+}
+.popup__arrow--right{
+    right: 20%;
+}
+.popup__arrow--left{
+    left: 20%;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.niewiem{
+position: absolute;
+top: 160px;
+height: 50px;
+width: 50px;
+cursor: pointer;
+opacity: 0.5;
+}
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    flex-direction: column ;
+    background-color: rgb(69, 90, 48);
+    border-radius: 20px;
+    padding-right: 10px;
+    padding-left:20px;
+}
+
+.collapsible--expanded .collapsible_content{
+    max-height: 100%;
+}
+.collapsible--expanded .niewiem{
+    opacity: 1;
+}
+.collapsible_content{
+    max-height: 0;
+    overflow: hidden;
+   
+}
+
+@media all and (width >= 768px) {
+    .niewiem{
+    display: none;
+        }
+    .collapsible_content{
+        max-height: 100%;
+    }
+    .conteiner{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
